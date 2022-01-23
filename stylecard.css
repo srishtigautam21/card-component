@@ -25,11 +25,9 @@ img{
     background-color: white;
     border-radius: 12px;
     box-shadow: 0px 5px 10px lightgrey;
-   
 }
 .inside-container{
     padding:3px 13px 13px 13px;
-    
 }
 .button-icons{
     display:flex;
@@ -52,10 +50,13 @@ img{
     margin-right:15px;
     cursor: pointer;
 }
-.share-btn i:hover{
-    cursor: pointer;
-    background-color: var(--offgreen);
-    opacity:0.5;
+.name{
+   padding-right:3rem;
+   padding-left:13px;
 }
-
-    
+.icons-no-visibility{
+    visibility:hidden;
+}
+.hide-button{
+    visibility:hidden;
+}
