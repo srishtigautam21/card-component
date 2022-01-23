@@ -5,17 +5,16 @@
     --offgreen:#f0fdf4;
     --darkerofseconadary:#86efac;
 }
-
 body{
     background-color: var(--offgreen);
     box-sizing: border-box;
-    
 }
 img{
     width:100%;
     height:15.62rem;
     object-fit:cover;
     border-radius: 12px 12px 0px 0px;
+   
 }    
 .container{
     display:flex;
@@ -26,10 +25,11 @@ img{
     background-color: white;
     border-radius: 12px;
     box-shadow: 0px 5px 10px lightgrey;
+   
 }
 .inside-container{
     padding:3px 13px 13px 13px;
-   
+    
 }
 .button-icons{
     display:flex;
@@ -46,16 +46,16 @@ img{
     cursor:pointer;
     background-color: var(--offgreen);
 }
-.share-btn i{
+.share-btn {
     box-sizing: border-box;
     padding:12px 10px;
-    margin-right:20px;
-    
+    margin-right:15px;
+    cursor: pointer;
 }
 .share-btn i:hover{
     cursor: pointer;
     background-color: var(--offgreen);
     opacity:0.5;
-
 }
+
     
