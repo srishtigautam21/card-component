@@ -1,9 +1,7 @@
 :root{
     --primary-color:#22c55e;
-    --secondary-color:#bbf7d0;
-    --notification-color:#f97316;
     --offgreen:#f0fdf4;
-    --darkerofseconadary:#86efac;
+    font-size: 62.5%;     /*10px*/
 }
 body{
     background-color: var(--offgreen);
@@ -11,44 +9,45 @@ body{
 }
 img{
     width:100%;
-    height:15.62rem;
+    height:22rem;
     object-fit:cover;
-    border-radius: 12px 12px 0px 0px;
-   
+    border-radius: 5px 5px 0px 0px;
 }    
 .container{
     display:flex;
     flex-wrap:wrap;
-    max-width:23rem;
+    max-width:33rem;
     margin:0 auto;
-    margin-top:4rem;
+    margin-top:6rem;
     background-color: white;
-    border-radius: 12px;
-    box-shadow: 0px 5px 10px lightgrey;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px gray;
 }
 .inside-container{
-    padding:3px 13px 13px 13px;
+    padding:8px 10px 13px 13px;
 }
 .button-icons{
     display:flex;
-    flex-wrap:wrap;
     gap:10px;
+    justify-content:space-between;
 }
 .card-button{
     border:0px;
     background-color: transparent;
-    font-weight:bold;
-    color:var(--primary-color)
+    font-weight:bolder;
+    color:var(--primary-color);
+    padding: 5px 3px 3px 0px;
 }
 .card-button:hover{
     cursor:pointer;
     background-color: var(--offgreen);
 }
-.share-btn {
-    box-sizing: border-box;
-    padding:12px 10px;
-    margin-right:15px;
+.icon-btn:hover {
     cursor: pointer;
+}
+.card-content{
+    font-size: 1.6rem;
+    margin-top:1.5rem;
 }
 .name{
    padding-right:3rem;
@@ -59,4 +58,32 @@ img{
 }
 .hide-button{
     visibility:hidden;
+}
+.parent-positioning{
+    position: relative;
+}
+.child-positioning{
+    position: absolute;
+    top: 14rem;
+    color:white;
+    margin-left: 0rem;
+}
+.small-card{
+    display:flex;
+    width:90%;
+    justify-content:space-evenly;
+}
+.small-card > img{
+    height:10rem;
+    object-fit: cover;
+    width:50%;
+    margin:0px 5px 10px 0px;
+}
+.writer{
+   font-weight: lighter;
+   margin-top: 1rem;
+}
+.flex-icons{
+    padding:1rem 1rem 1rem 1rem;
+    width:100%;
 }
